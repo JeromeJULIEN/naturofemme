@@ -28,9 +28,9 @@ const DesktopMenu = (props: Props) => {
             <p>Naturofemme</p>
           </Link>
           <div className='flex justify-between items-center  text-h3  w-1/2 h-full italic'>
-            <Link href={'/myart'} className={`px-4 py-1 border-b-2 ${isActive("/") ? " border-accentColor":"border-transparent"} transition-all`}>La pressothérapie</Link>
-            <Link href={'/collections'} className={`px-4 py-1 border-b-2 ${isActive("/") ? " border-accentColor":"border-transparent"} transition-all`}>A propos</Link>
-            <Link href={'/about'} className={`px-4 py-1 border-b-2 ${isActive("/") ? " border-accentColor":"border-transparent"} transition-all`}>Tarifs</Link>
+            <Link href={'/'} className={`px-4 py-1 border-b-2 ${isActive("/t") ? " border-accentColor":"border-transparent"} transition-all`}>La pressothérapie</Link>
+            <Link href={'/'} className={`px-4 py-1 border-b-2 ${isActive("/t") ? " border-accentColor":"border-transparent"} transition-all`}>A propos</Link>
+            <Link href={'/'} className={`px-4 py-1 border-b-2 ${isActive("/t") ? " border-accentColor":"border-transparent"} transition-all`}>Tarifs</Link>
           </div>
       </div>
     </>
