@@ -22,15 +22,15 @@ const DesktopMenu = (props: Props) => {
 
   return (
     <>
-      <div className='fixed inset-0 flex justify-between items-center w-full h-20 px-10 pt-2 drop-shadow-lg dark:shadow-white bg-mainColor dark:bg-mainColorDark z-20 '>
+      <div className='fixed inset-0 flex justify-between items-center w-full h-20 px-10 drop-shadow-lg dark:shadow-white bg-mainColor dark:bg-mainColorDark z-20 '>
           <Link href={"/"} className='flex justify-start items-center italic gap-4 font-thin'>
             <Image alt='logo' src={"/images/logo/logo_naturofemme_small.png"} width={50} height={50} />
             <p>Naturofemme</p>
           </Link>
           <div className='flex justify-between items-center  text-h3  w-1/2 h-full italic'>
-            <Link href={'/'} className={`px-4 py-1 border-b-2 ${isActive("/t") ? " border-accentColor":"border-transparent"} transition-all`}>La pressothérapie</Link>
-            <Link href={'/'} className={`px-4 py-1 border-b-2 ${isActive("/t") ? " border-accentColor":"border-transparent"} transition-all`}>A propos</Link>
-            <Link href={'/'} className={`px-4 py-1 border-b-2 ${isActive("/t") ? " border-accentColor":"border-transparent"} transition-all`}>Tarifs</Link>
+            <Link href={'/pressotherapie'} className={`px-4 py-1 border-b-2 ${isActive("/pressotherapie") ? " border-accentColor":"border-transparent"} transition-all`}>La pressothérapie</Link>
+            <Link href={'/about'} className={`px-4 py-1 border-b-2 ${isActive("/about") ? " border-accentColor":"border-transparent"} transition-all`}>A propos</Link>
+            <Link href={'/price'} className={`px-4 py-1 border-b-2 ${isActive("/price") ? " border-accentColor":"border-transparent"} transition-all`}>Tarifs</Link>
           </div>
       </div>
     </>

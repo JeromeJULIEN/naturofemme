@@ -23,9 +23,10 @@ const config = {
         "mainColor":"#FFFFFF",
         "mainColorDark":"#0a0a0a", //@0a0a0a
         "mainButtonDark":"#fafafa",
-        "secondColor":"#EFEFEF",
+        "secondColor":"#b96853",
         "secondColorDark":"#525252",
-        "accentColor":"#8ab2be", 
+        "thirdColor": "#c1b4a7",
+        "accentColor":"#fedbcb", 
         "textColor-main":"#000000",
         "textColor-second":"#707070",
         border: "hsl(var(--border))",
